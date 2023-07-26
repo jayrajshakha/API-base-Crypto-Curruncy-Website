@@ -4,5 +4,135 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Tajawal', sans-serif; ;
+    font-family: 'Tajawal', sans-serif; 
 }
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/background.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    display: flex;
+
+}
+.icon img{
+    width: 130px;
+    padding: 20px;
+    margin: 23px 15px 0 60px;
+}
+
+.icon ul{
+    display: flex;
+    
+}
+.icon ul li{
+
+    padding: 12px;
+    margin: 60px 10px 50px 10px;
+}
+.icon li a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+
+}
+.btn {
+   margin: 70px 90px 15px 30px ;
+   
+}
+.btn button{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 45%;
+    color: white;
+    width: 50px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+section{
+    width: 45%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    margin: 10px 10px 10px 80px;
+
+}
+section h1{
+   color: white;
+   padding: 3px;
+   margin: 10px 0px;
+   font-size: 58px;
+   margin-bottom: 10px;
+   line-height: 55px;
+
+}
+section h1 span{
+    color: orange;
+}
+section p{
+    color: white;
+    width: 68%;
+    height: 113px;
+
+}
+section button{
+    color: white;
+    padding: 5px;
+    margin: 25px 0px;
+    width: 20%;
+    height: 80px;
+    color: white;
+    background-color:orange;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+footer{
+    width:42% ;
+    margin: 12px 12px 12px 12px ;
+    position: absolute;
+    bottom: 5px;
+    right: 90px;
+    height: 130px;
+    display: flex;
+    
+
+
+}
+.coin {
+    border: 1px solid white;
+    display: flex;
+    width: 130px ;
+    height: 65px;
+    padding: 12px;
+    margin: 35px 12px 0 8px ;
+    border-radius:8px;
+    justify-content: space-between;
+}
+.coin img{
+    width: 40px;
+}
+.coin p{
+    color: white;
+}
+.coin span{
+    color: orange;
+}
+
